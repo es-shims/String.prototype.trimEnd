@@ -1,7 +1,7 @@
 ## Introduction
 This is a polyfill for the proposed `String` API `trimEnd` by [@sebmarkbage](https://github.com/sebmarkbage), [@evilpie](https://github.com/evilpie/) and [@ljharb](https://github.com/ljharb).
 
-As the [proposal](https://github.com/tc39/proposal-string-left-right-trim) says this API will trim the whitespaces from a string just like the [`trim`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/trim) function but only from the end of the string leaving any white space at the begining. This is implemented by some browsers (like FireFox and Chrome) under the name [`trimRight`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/TrimRight) which not a standard API by the ECMA.
+As the [proposal](https://github.com/tc39/proposal-string-left-right-trim) says this API will trim the whitespaces from a string just like the [`trim`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/trim) function but only from the end of the string leaving any white space at the beginning. This is implemented by some browsers (like FireFox and Chrome) under the name [`trimRight`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/TrimRight) which is not a standard API by the ECMA.
 
 ## Example
 
