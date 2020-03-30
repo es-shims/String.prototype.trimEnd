@@ -1,6 +1,6 @@
 {
   "name": "string.prototype.trimend",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "polyfill for the proposed api String.prototype.trimEnd",
   "main": "index.js",
   "scripts": {
