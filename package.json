@@ -4,6 +4,8 @@
 	"description": "polyfill for the proposed api String.prototype.trimEnd",
 	"main": "index.js",
 	"scripts": {
+		"lint": "eslint .",
+		"pretest": "npm run lint",
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"version": "auto-changelog && git add CHANGELOG.md",
 		"postversion": "auto-changelog && git add CHANGELOG.md && git commit --no-edit --amend && git tag -f \"v$(node -e \"console.log(require('./package.json').version)\")\""
@@ -29,7 +31,9 @@
 	},
 	"license": "MIT",
 	"devDependencies": {
-		"auto-changelog": "^1.16.3"
+		"@ljharb/eslint-config": "^16.0.0",
+		"auto-changelog": "^1.16.3",
+		"eslint": "^6.8.0"
 	},
 	"auto-changelog": {
 		"output": "CHANGELOG.md",
