@@ -1,14 +1,18 @@
 'use strict';
 
-// eslint-disable-next-line no-extend-native, consistent-return
-String.prototype.trimEnd = String.prototype.trimEnd || function () {
-	if (String.prototype.trimRight) {
-		return this.trimRight();
-	}
-	if (String.prototype.trim) {
-		var trimmed = this.trim();
-		var indexOfWord = this.indexOf(trimmed);
+var callBind = require('es-abstract/helpers/callBind');
+var define = require('define-properties');
 
-		return this.slice(indexOfWord, this.length);
-	}
-};
+var implementation = require('./implementation');
+var getPolyfill = require('./polyfill');
+var shim = require('./shim');
+
+var bound = callBind(getPolyfill());
+
+define(bound, {
+	getPolyfill: getPolyfill,
+	implementation: implementation,
+	shim: shim
+});
+
+module.exports = bound;
