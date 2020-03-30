@@ -24,6 +24,9 @@
 		"tc39"
 	],
 	"author": "Khaled Al-Ansari <khaledelansari@gmail.com>",
+	"funding": {
+		"url": "https://github.com/sponsors/ljharb"
+	},
 	"license": "MIT",
 	"devDependencies": {
 		"auto-changelog": "^1.16.3"
