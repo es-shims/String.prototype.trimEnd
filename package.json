@@ -1,7 +1,16 @@
 {
 	"name": "string.prototype.trimend",
 	"version": "1.0.0",
+	"author": "Jordan Harband <ljharb@gmail.com>",
+	"contributors": [
+		"Jordan Harband <ljharb@gmail.com>",
+		"Khaled Al-Ansari <khaledelansari@gmail.com>"
+	],
+	"funding": {
+		"url": "https://github.com/sponsors/ljharb"
+	},
 	"description": "ES2019 spec-compliant String.prototype.trimEnd shim.",
+	"license": "MIT",
 	"main": "index.js",
 	"scripts": {
 		"lint": "eslint .",
@@ -13,6 +22,10 @@
 		"test:module": "node test",
 		"version": "auto-changelog && git add CHANGELOG.md",
 		"postversion": "auto-changelog && git add CHANGELOG.md && git commit --no-edit --amend && git tag -f \"v$(node -e \"console.log(require('./package.json').version)\")\""
+	},
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/es-shims/String.prototype.trimEnd.git"
 	},
 	"keywords": [
 		"es6",
@@ -29,11 +42,6 @@
 		"trimEnd",
 		"tc39"
 	],
-	"author": "Khaled Al-Ansari <khaledelansari@gmail.com>",
-	"funding": {
-		"url": "https://github.com/sponsors/ljharb"
-	},
-	"license": "MIT",
 	"devDependencies": {
 		"@es-shims/api": "^2.1.2",
 		"@ljharb/eslint-config": "^16.0.0",
