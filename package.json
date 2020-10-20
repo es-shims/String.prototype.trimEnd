@@ -1,6 +1,6 @@
 {
 	"name": "string.prototype.trimend",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"author": "Jordan Harband <ljharb@gmail.com>",
 	"contributors": [
 		"Jordan Harband <ljharb@gmail.com>",
