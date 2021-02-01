@@ -63,7 +63,7 @@
 		"hideCredit": true
 	},
 	"dependencies": {
-		"call-bind": "^1.0.0",
+		"call-bind": "^1.0.2",
 		"define-properties": "^1.1.3"
 	}
 }
