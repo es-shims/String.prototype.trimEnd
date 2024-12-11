@@ -44,6 +44,12 @@
 		"trimEnd",
 		"tc39"
 	],
+	"dependencies": {
+		"call-bind": "^1.0.8",
+		"call-bound": "^1.0.2",
+		"define-properties": "^1.2.1",
+		"es-object-atoms": "^1.0.0"
+	},
 	"devDependencies": {
 		"@es-shims/api": "^2.5.1",
 		"@ljharb/eslint-config": "^21.1.1",
@@ -65,12 +71,6 @@
 		"commitLimit": false,
 		"backfillLimit": false,
 		"hideCredit": true
-	},
-	"dependencies": {
-		"call-bind": "^1.0.8",
-		"call-bound": "^1.0.2",
-		"define-properties": "^1.2.1",
-		"es-object-atoms": "^1.0.0"
 	},
 	"publishConfig": {
 		"ignore": [
