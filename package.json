@@ -45,10 +45,10 @@
 		"tc39"
 	],
 	"dependencies": {
-		"call-bind": "^1.0.8",
-		"call-bound": "^1.0.2",
+		"call-bind": "^1.0.9",
+		"call-bound": "^1.0.4",
 		"define-properties": "^1.2.1",
-		"es-object-atoms": "^1.0.0"
+		"es-object-atoms": "^1.1.2"
 	},
 	"devDependencies": {
 		"@es-shims/api": "^2.5.1",
